@@ -1,0 +1,54 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+.rover {
+  font-size: 16px;
+  width: 120px;
+}
+
+.button {
+  font-size: 15px;
+}
+
+main {
+  color: #ffffff;
+  flex: 1;
+  padding: 20px;
+  background-image: url(tychotour_GEI.HD720p.0950.jpg);
+  line-height: 30px;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  .gallery {
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+}
