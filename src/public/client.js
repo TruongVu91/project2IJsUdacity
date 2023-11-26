@@ -91,7 +91,6 @@ const generateImage = (roverDetail) => {
 // ------------------------------------------------------  API CALLS
 
 const getImageOfRover= async (roverName, state) => {
-    let {roverDetail} = state
     await fetch(`http://localhost:3000/${roverName}`)
         .then(res => res.json())
         .then(roverDetail => updateStore(store, { roverDetail }))
